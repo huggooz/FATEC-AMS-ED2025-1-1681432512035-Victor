@@ -3,10 +3,10 @@
 void aplicarDesconto(float *preco, float desconto, int *tipoDesconto, float *valorDesconto) {
     if (*tipoDesconto == 1) {
         *valorDesconto = *preco * (desconto / 100);
-        *preco -= *valorDesconto; // Desconto em porcentagem
+        *preco -= *valorDesconto; 
     } else {
         *valorDesconto = desconto;
-        *preco -= *valorDesconto; // Desconto em reais
+        *preco -= *valorDesconto; 
     }
 }
 
