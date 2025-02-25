@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Função para aplicar o desconto usando ponteiros
 void aplicarDesconto(float *preco, float desconto, int *tipoDesconto, float *valorDesconto) {
     if (*tipoDesconto == 1) {
         *valorDesconto = *preco * (desconto / 100);
@@ -15,7 +14,6 @@ int main() {
     float preco, desconto, valorDesconto = 0;
     int aplicar, tipoDesconto;
     
-    // Obtendo os dados do usuário
     printf("Informe o preço do produto: ");
     scanf("%f", &preco);
     
@@ -29,11 +27,9 @@ int main() {
         printf("Informe o valor do desconto: ");
         scanf("%f", &desconto);
         
-        // Aplicando desconto
         aplicarDesconto(&preco, desconto, &tipoDesconto, &valorDesconto);
     }
     
-    // Exibe os resultados
     printf("\nValor do desconto: R$ %.2f\n", valorDesconto);
     printf("Preço final: R$ %.2f\n", preco);
     
