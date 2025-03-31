@@ -1,3 +1,18 @@
+/*----------------------------------------------------------------------------------*/
+/*   FATEC-São Caetano do Sul                 Estrutura de Dados                    */
+/*                                                                                  */
+/*            Id da Atividade: Atividade B1-3-Manipulação de Lista Ligada           */
+/*                                                                                  */
+/*            Objetivo: Desenvolver um sistema de gerenciamento de pedidos para um  */
+/*            restaurante, utilizando uma lista ligada para armazenar e gerenciar   */
+/*            pedidos de forma dinâmica. O sistema permite cadastrar pedidos,       */
+/*            atualizar seu status, consultar pedidos específicos, removê-los e     */
+/*            liberar a memória alocada ao final da execução.                       */
+/*                                                                                  */
+/*                                  Autor: Victor Hugo Gonçalves                    */
+/*                                                                  Data:25/03/2025 */
+/*----------------------------------------------------------------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
