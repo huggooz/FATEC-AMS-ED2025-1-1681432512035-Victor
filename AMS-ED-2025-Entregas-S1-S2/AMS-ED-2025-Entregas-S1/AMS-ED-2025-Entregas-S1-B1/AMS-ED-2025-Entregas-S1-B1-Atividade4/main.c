@@ -1,3 +1,21 @@
+/*-----------------------------------------------------------------------------------*/
+/*   FATEC-São Caetano do Sul                 Estrutura de Dados                     */
+/*                                                                                   */
+/*       Id da Atividade: Atividade B1-4-Manipulação de Pilha - Implementado HP12c   */
+/*                                                                                   */
+/*     Objetivo: O programa simula o funcionamento da calculadora financeira HP12c   */
+/*               utilizando a notação polonesa reversa (RPN) e uma estrutura de      */
+/*               pilha. Ele recebe uma expressão matemática no formato RPN, armazena */
+/*               e processa os valores na pilha, realizando operações básicas como   */
+/*               soma, subtração, multiplicação e divisão. Ao final, exibe o         */
+/*               resultado da operação e a fórmula algébrica correspondente,         */
+/*               garantindo que a expressão seja resolvida corretamente seguindo a   */
+/*               lógica da pilha.                                                    */
+/*                                                                                   */
+/*                                  Autor: Victor Hugo Gonçalves                     */
+/*                                                                  Data:30/04/2025  */
+/*-----------------------------------------------------------------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
