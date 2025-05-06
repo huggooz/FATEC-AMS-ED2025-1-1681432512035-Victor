@@ -3,7 +3,7 @@
 /                         Id da Atividade: S1-B2-2                                  /
 /             Objetivo: << BubbleSort >>                                            /
 /                                                                                   /
-/                                  Autor: Fernando Alcantara D'Avila                /
+/                                  Autor: Victor Hugo Gonçalves                     /
 /                                                                  Data:06/05/2025  /
 /----------------------------------------------------------------------------------*/
 #include <stdio.h>
